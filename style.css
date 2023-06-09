@@ -7,12 +7,14 @@ body {
 
 .navbar {
     display: flex;
+    flex-direction: row;
+    
 }
  
 nav ul {
     display: flex;
     list-style: none;
-
+    margin-top: 12px;
 }
 
 nav ul li {
@@ -23,15 +25,29 @@ p{
 }
 .name-developer {
     
+    font-size:30px;
+    font-weight: bold; 
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+.name-profession{
     font-size: 30px;
     font-weight: bold;
+    margin-top: 0;
+}
+.view-resume-button {
+    background-color: red;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+.contact-button {
+    background-color: red;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 
 
 
-.proffesion.tittle {
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 26px;
-}
